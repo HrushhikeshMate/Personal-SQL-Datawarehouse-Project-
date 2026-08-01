@@ -67,7 +67,7 @@ CREATE TABLE silver.crm_sales_details (
     sls_ord_num NVARCHAR(50),
     sls_prd_key NVARCHAR(50),
     sls_cust_id INT,
-    sls_order_dt DATE ,
+    sls_order_dt DATE , -- need to chage the data type before loading in silver layer according to the need as done int to date
     sls_ship_dt DATE,
     sls_due_dt DATE,
     sls_sales INT,
